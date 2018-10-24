@@ -21,9 +21,10 @@ end
 
 def while_iterator(number_of_times)
   counter = 0 
-  while counter < 8 do
+  while counter < 8 
+  counter += 1 
   puts "Welcome to Flatiron School's Web Development Course!"
-   counter += 1
+   
 end
 end 
 
